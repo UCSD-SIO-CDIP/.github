@@ -10,9 +10,8 @@ Before contributing:
 
 1. Read the repository's `README.md` and relevant documentation.
 2. Check existing issues and pull requests for related work.
-3. For substantial changes, open an issue describing the problem and proposed solution before implementing it.
-4. Make sure your changes are consistent with the project's existing architecture and conventions.
-5. Ensure that you are permitted to contribute the code, documentation, or other material you submit.
+3. Make sure your changes are consistent with the project's existing architecture and conventions.
+4. Ensure that you are permitted to contribute the code, documentation, or other material you submit.
 
 ## Contribution Workflow
 
@@ -75,8 +74,6 @@ Canonical repository
 3. Add the canonical repository as an upstream remote.
 4. Create a branch from the current `upstream/main`.
 5. Make your changes on that branch.
-6. Add or update tests as appropriate.
-7. Run formatting, linting, tests, and other required checks.
 8. Push the branch to your fork.
 9. Open a pull request from your fork to the canonical repository's `main` branch.
 10. Address review feedback and keep your branch synchronized with `upstream/main` when necessary.
@@ -88,10 +85,10 @@ For example:
 git clone https://github.com/YOUR-USERNAME/PROJECT.git
 cd PROJECT
 
-git remote add upstream https://github.com/ORGANIZATION/PROJECT.git
+git remote add cdip https://github.com/UCSD-SIO-CDIP/PROJECT.git
 
 git fetch upstream
-git checkout -b feature/my-change upstream/main
+git checkout -b feature/my-change cdip/main
 
 # Make changes...
 
@@ -113,20 +110,6 @@ A good pull request should:
 - Pass all required automated checks.
 - Be reasonably scoped so that it can be reviewed effectively.
 
-### Pull Request Checklist
-
-Before submitting a pull request, verify:
-
-- [ ] The change is related to an existing issue or has an appropriate explanation.
-- [ ] The code follows project conventions.
-- [ ] Tests have been added or updated where appropriate.
-- [ ] Existing tests pass.
-- [ ] Formatting and linting pass.
-- [ ] Documentation has been updated where necessary.
-- [ ] No secrets, credentials, or private information have been committed.
-- [ ] The diff contains only relevant changes.
-- [ ] Commit history is reasonably clean and understandable.
-
 ## Testing
 
 Contributors are expected to test their changes appropriately.
@@ -138,8 +121,6 @@ Pull requests are reviewed for correctness, maintainability, scope, compatibilit
 Reviewers may request changes before a pull request is merged. Contributors are expected to respond to review comments and update their branch as necessary.
 
 Passing CI does not guarantee that a pull request will be merged. Automated checks and human review serve different purposes.
-
-Maintainers may also request that a change be split into smaller pull requests when doing so makes review and maintenance easier.
 
 ## Code of Conduct
 
