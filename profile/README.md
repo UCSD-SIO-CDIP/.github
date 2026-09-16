@@ -8,3 +8,4 @@ CDIP is operated by the Ocean Engineering Research Group (OERG), part of the Int
 ## Resources
 - [Home page](https://cdip.ucsd.edu/m/)
 - [Documentation](https://cdip.ucsd.edu/m/documents/index.html)
+- [Contributing](https://github.com/UCSD-SIO-CDIP/.github/blob/main/CONTRIBUTING.md)
