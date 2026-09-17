@@ -1,6 +1,6 @@
 This is the special `.github` repository for the [UCSD-SIO-CDIP](https://github.com/UCSD-SIO-CDIP) organization. GitHub uses repositories named `.github` to store organization-wide defaults and community health files that apply automatically across every repository in the organization, unless a repository provides its own override.
 
-This repository is **public** and its contents are visible to the world at-large. For **private** configuration and internal docs, see [.github-private](https://github.com/UCSD-SIO-CDIP/.github-private).
+This repository is **public** and its contents are visible to the world at-large. For **private** configuration and internal docs, see [`.github-private`](https://github.com/UCSD-SIO-CDIP/.github-private).
 
 ## What This Repository Provides
 
